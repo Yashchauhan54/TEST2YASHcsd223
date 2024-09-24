@@ -1,0 +1,265 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.btn4{
+  color: white;
+  background-color: darkred;
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 200px;
+}
+.btn4:hover{
+  background-color: rgb(245, 3, 3);
+}
+.btn5:hover{
+  background-color: rgb(245, 3, 3);
+}
+.btn5{
+  color: white;
+  background-color:rgb(155, 2, 7);
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 200px;
+}
+
+.btn7{
+  padding: 5px 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  width: 200px;
+}
+
+.btn7:hover{
+  background-color: rgb(240, 7, 42);
+  color: white;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.welcome h1{
+  font-size: 50px;
+  color: darkred;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.thank{
+  color: darkred;
+  text-align: center;
+  margin-top: 50px;
+}
+.hero-area {
+  margin-bottom: 40px;
+}
+.survey-form-container h2{
+  color: darkred;
+  font-size: 40px;
+  text-align: center;
+}
+
+.hero-area img {
+  max-width: 100%;
+  height: auto;
+  border: 0px;
+}
+
+.hero-area h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.hero-area p {
+  font-size: 1rem;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.below h1{
+
+  color: darkred;
+  background-color: #ddd;
+  margin-top: 30px;
+  font-size: 40px;
+  text-align: center;
+ 
+}
+.below p{
+  margin-top: 20px;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+}
+.searchbar h1{
+  margin-top: 20px;
+  color: darkred;
+  background-color: #ddd;
+  text-align: center;
+}
+
+
+
+.container{
+  padding: 20px;
+}
+.img-fluid{
+  size: 20px;
+}
+.high{
+  text-align: center;
+}
+.col-md-6 {
+  background-color: darkred;
+  color: white;
+}
+
+.myedit{
+  margin-left: 30px;
+}
+.btn3{
+  
+  font-size: 20px;
+  color: rgb(202, 10, 10);
+}
+.col-md-4 {
+ 
+  border: 1px solid #ddd; 
+  border-radius: 5px;
+  padding: 20px; 
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); 
+}
+
+.col-md-3{
+  background-color: darkred;
+  color: white;
+  margin-top: 20px;
+  border: 3px solid rgb(190, 184, 184); 
+  border-radius: 10px;
+  padding: 20px; 
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+.text-center1{
+  font-size: 30px;
+  color: darkred;
+  background-color: #ddd;
+  text-align: center;
+
+}
+
+.card-title{
+  color: darkred;
+  background-color: #ddd;
+}
+.additional-nav2 .nav-pills .nav-link {
+  margin-top: 10px;
+  color: rgb(51, 54, 55);
+  text-align: center;
+  margin-left:30px ;
+  margin-right: 30px;
+}
+.footer{
+  background-color: #060707;
+  color:white;
+  border-radius: 2%;
+}
+.card-title1{
+  color: darkred;
+  background-color: #ddd;
+}
+.btn-outline-light{
+  background-color: darkred;
+  color: white;
+}
+.col.md-7 h2{
+  color: darkred;
+  background-color: #ddd;
+}
+.btn-outline-light:hover{
+  background-color: rgb(246, 8, 24);
+  color: white;
+  
+}
+.col-md-8 p{
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+.mybtn{
+  color:black;
+  background-color: aqua;
+}
+.btn2{
+  color: black;
+  background-color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 40px;
+  
+}
+.footer {
+  background-color: #f8f9fa; 
+  border-top: 1px solid #e7e7e7; 
+  padding: 20px 0; 
+   
+  left: 0;
+  bottom: 0;
+  width: 100%; 
+  text-align: center; 
+  font-size: 14px; 
+}
+
+.col-md-4 h4{
+  color: rgb(142, 18, 18);
+}
+
+.navbar{
+  background-color: rgb(222, 214, 214);
+}
+
+.navbar .nav-link{
+color: darkred;
+font-size: 15px;
+}
